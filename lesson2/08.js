@@ -84,3 +84,95 @@ if(str){
 
 
 // ternary operator
+
+let y = 15;
+let learn;
+
+if(y >= 4) {
+	learn = "Javascript";  
+} else {
+	learn = "Angular";
+} 
+
+console.log(learn);
+
+// ternary operator / conditional operator
+
+let z = 3;
+let drink = z >= 7 ? "coffee" : "milk";
+console.log(drink);
+
+
+// and or operator
+
+let lastName = "thenavigo";
+let age = 22;
+
+// if(lastName[0] === "t") {
+// 	console.log("your name starts with t")
+// }
+
+// if(age > 19) {
+// 	console.log("you are above 19");
+// }
+
+// if(lastName[0] === "t" age>19) {
+// 	console.log("Name starts with t and above 19");
+// } else {
+// 	console.log("inside else");
+// }
+
+if(lastName[0] === "t" || age>19) {
+	console.log("inside if");
+} else {
+	console.log("inside else");
+}
+
+
+// nested if else
+
+let winningNumber = 23;
+let userGuess = +prompt("Guess a number");
+console.log(typeof userGuess, userGuess);
+if(userGuess === winningNumber) {
+	console.log("Your Guess is right !!");
+} else {
+	if(userGuess < winningNumber) {
+		console.log("too low !!!");
+	} else {
+		console.log("too high !!")
+	}
+}
+
+
+
+// Switch
+let day = 2;
+switch(day) {
+	case 0:
+		console.log("Sunday");
+		break;
+	case 1:
+		console.log("Monday");
+		break;
+	case 2:
+		console.log("Tuesday");
+		break;
+	case 3:
+		console.log("Wednesday");
+		break;
+	case 4:
+		console.log("Thursday");
+		break;
+	case 5:
+		console.log("Friday");
+		break;
+	case 6:
+		console.log("Saturday");
+		break;
+	default:
+		console.log("Invalid Day");
+}
+
+
+// while loop
