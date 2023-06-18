@@ -10,7 +10,7 @@ Javascript Lessons
 * String indexing
 * Useful string methods
 * Template Strings
-* Null, undefined, Biglnt, typeof
+* Null, undefined, BigInt, typeof
 * Booleans and Comparison
 * Truthy and Falsy Values
 * If else statement
