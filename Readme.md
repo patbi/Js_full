@@ -24,5 +24,18 @@ Javascript Lessons
 * Break and continue keyworld
 * Do while loop
 
-# Part 2 - Arrays in JavaScript
+# Part 2 - Arrays in JavaScript: 
+
+* Intro to arrays
+* Push pop shift unshift
+* Primitive vs reference data types
+* Clone array & spred operator
+* For loop
+* Use const for creating arrays
+* While loop in array
+* For of loop
+* Array destructuring
+
+# Part 3 - Objects in Javascript
+
 

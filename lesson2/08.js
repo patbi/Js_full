@@ -175,4 +175,70 @@ switch(day) {
 }
 
 
-// while loop
+// while loop - try don't repeat yourself 
+let i = 0;
+
+while(i<=3) {
+	console.log(i);
+	i++;
+}
+console.log(`current value of i is ${i}`);
+
+// example 2
+
+let num8 = 10;
+let total = 0;
+let b = 0;
+
+while(b <= 100){
+	total = total + b;
+	b++;
+}
+console.log(total);
+
+
+// intro to for loop
+// print 0 to 9
+
+for(let f = 0; f <= 9; f++ ) {
+	console.log(f);
+}
+
+
+// example 2
+let sum = 0;
+
+let h = 100;
+
+for(let s = 1; s <= h; s++) {
+	sum = sum + s;
+}
+console.log(sum);
+
+
+// Break and 
+for(let u = 1; u <= 10; u++) {
+	if(u===3) {
+		break;
+	}
+	console.log(u);
+}
+
+
+//continue keyworld
+for(let j = 1; j <= 10; j++) {
+	if(j===3) {
+		continue;
+	}
+	console.log(j);
+}
+console.log("hello there");
+
+// do while loop
+
+let k = 10;
+do{
+	console.log(k);
+	k++;
+}while(k <= 9);
+console.log("value of k is ", k);
