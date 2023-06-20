@@ -38,4 +38,13 @@ Javascript Lessons
 
 # Part 3 - Objects in Javascript
 
+* Intro to objects
+* Dot vs Bracket Notation
+* Iterate objects
+* Computed properties
+* Spread operator in objects
+* Object Destructuring
+* Objects inside Array
+* Nested Destructuring
 
+# Functions in JavaScript
