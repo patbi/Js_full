@@ -47,4 +47,4 @@ Javascript Lessons
 * Objects inside Array
 * Nested Destructuring
 
-# Functions in JavaScript
+# Part 4 - Functions in JavaScript
