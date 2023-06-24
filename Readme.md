@@ -29,7 +29,7 @@ Javascript Lessons
 * Intro to arrays
 * Push pop shift unshift
 * Primitive vs reference data types
-* Clone array & spred operator
+* Clone array & spread operator
 * For loop
 * Use const for creating arrays
 * While loop in array
@@ -48,3 +48,20 @@ Javascript Lessons
 * Nested Destructuring
 
 # Part 4 - Functions in JavaScript
+
+* Function declaration
+* Function Expression
+* Arrow Functions
+* Function declarations are hoisted (covered in great detail, later in this course)
+* Function inside function
+* Lexical Scope
+* Block Scope Vs Function scope
+* Default Parameters
+* Rest Parameters
+* Parameter Destructuring
+* Very brief intro to callback functions(covered in great detail, later in this course)
+* Functions returning Functions
+
+
+# Part 5 - Very Important Array Methods
+
