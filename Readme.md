@@ -63,5 +63,19 @@ Javascript Lessons
 * Functions returning Functions
 
 
-# Part 5 - Very Important Array Methods
+# Part 5 - Very Important Array Methods: 4:51
+
+* Foreach method
+* Map method
+* Filter
+* Reduce
+* Sort
+* Find
+* Every
+* Some
+* Fill method
+* Splice method
+
+
+# Part 6 - More useful things 
 

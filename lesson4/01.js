@@ -11,7 +11,7 @@ console.log(person);
 const company = {
 	name: "thenavigo",
 	age: 25,
-	people: ["ci", "mgr", "director", "c-level", "ceo"]
+	people: ["ci", "mgr", "director", "vp", "c-level", "ceo"]
 }
 
 
@@ -106,7 +106,7 @@ const obj1 = {
 };
 
 const obj2 = {
-	key1: "valueUniue",
+	key1: "valueUnique",
 	key3: "value3",
 	key4: "value4",
 };
