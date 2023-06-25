@@ -24,7 +24,7 @@ Javascript Lessons
 * Break and continue keyworld
 * Do while loop
 
-# Part 2 - Arrays in JavaScript: 
+# Part 2 - Arrays in JavaScript
 
 * Intro to arrays
 * Push pop shift unshift
