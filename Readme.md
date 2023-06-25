@@ -63,7 +63,7 @@ Javascript Lessons
 * Functions returning Functions
 
 
-# Part 5 - Very Important Array Methods: 4:51
+# Part 5 - Very Important Array Methods
 
 * Foreach method
 * Map method
