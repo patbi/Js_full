@@ -141,3 +141,23 @@ const myUser = userCart.find((user)=>user.productId===1);
 console.log(myUser);
 
 // every method 
+const resp = numbers.every((nums)=>nums%2===0);
+
+// callback function ---> true / false (boolean)
+
+// every method -------> true / false (boolean)
+console.log(resp);
+
+// check every produce < 7000
+const ans2 = userCart.every((cartItem)=>cartItem.price < 7000);
+console.log(ans2);
+
+
+// some method
+const ans3 = numbers.some((nums)=>nums%2===0);
+console.log(ans3);
+
+const ans4 = userCart.some((cartItem)=>cartItem.price > 300000);
+console.log(ans4);
+
+// fill method
