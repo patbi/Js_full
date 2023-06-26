@@ -77,7 +77,7 @@ Javascript Lessons
 * Splice method
 
 
-# Part 6 - More useful things : 6:18
+# Part 6 - More useful things 
 
 * Iterables
 * Sets
