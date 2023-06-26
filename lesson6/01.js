@@ -161,3 +161,26 @@ const ans4 = userCart.some((cartItem)=>cartItem.price > 300000);
 console.log(ans4);
 
 // fill method
+const mArray = new Array(5).fill(-1);
+console.log(mArray);
+
+numsArr = [1,2,3,4,5,6,7,8];
+numsArr.fill(0,2,5);
+console.log(numsArr);  
+
+
+// splice method
+// start, delete , insert
+const strArr = ["item1", "item2", "item3"];
+
+// delete
+// strArr.splice(1, 1);
+
+
+// insert
+strArr.splice(1, 0, 'inserted item4');
+
+// insert and delete
+// strArr.splice(1, 2, 'inserted item4');
+
+console.log(strArr);
