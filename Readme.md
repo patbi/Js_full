@@ -87,6 +87,7 @@ Javascript Lessons
 
 # Part 7 - Object Oriented JavaScript / Prototypal Inheritance
 
+
 * Methods
 * This keyword, window object
 * Call, apply and bind method
@@ -112,3 +113,50 @@ Javascript Lessons
 
 # Part 8 - How JavaScript Works
 
+
+* Global Execution context
+* This and window in global execution context
+* Hoisting
+* Are let and const are hoisted ? What is a reference Error ?
+* Function execution context
+* Scope vhain and lexical environment
+* Intro to closures
+* Closure example 1
+* Closure example 2
+* Closure example 3
+
+
+# Part 9 - DOM tutorial
+
+
+* HTML and CSS Crash course
+* Async vs defer
+* Select elements using id
+* querySelector
+* textContext & innerText
+* Change the styles of elements using js
+* Get and set attributes
+* Select multiple elements and loop through them
+* innerHTML
+* Deeply understand dom tree, root node, element nodes, text nodes
+* classList
+* Add new elements to page
+* Create elements
+* Insert adjacent elements
+* Clone nodes
+* More methods to add elements on page
+* How to get the dimensions of the element
+* Intro to events
+* This keyword inside eventListener Callback
+* Add events on multiple elements
+* Event object
+* How event listener works
+* Practice with events
+* Create demo project
+* More events
+* Event bubbling
+* Event Capturing
+* Event delegation
+* Create Project using event delegation
+
+# Part 10 - Asynchronous JavaScript
