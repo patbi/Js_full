@@ -160,3 +160,29 @@ Javascript Lessons
 * Create Project using event delegation
 
 # Part 10 - Asynchronous JavaScript
+
+* Js Javascript a synchronous or asynchronous programming language
+* SetTimeout()
+* SetTimeout() with 0 millisecond
+* Callback Queue
+* Setinterval and create little project setinterval
+* Understand callbacks in general
+* Callbacks in asynchronous programming
+* Callback Hell and Pyramid of doom
+* Intro to promises
+* Microtask Queue
+* Function that returns promise
+* Promise and setTimeout
+* Promise resolve and more about then method
+* Convert  nested Callbacks to flat code using promises
+* Intro to Ajax, HTTP Request
+* XHR requests
+* Error handling in XHR requests
+* XHR request Chaining
+* Promisifying XHR requests and chaining using then method
+* Fetch API
+* Error Handling in Fetch API
+* Consume Promises with asynch and Await
+* Split code into multiple files ES6 modules
+* Congratulations
+* Now you know javascript in Great Details
