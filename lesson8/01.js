@@ -386,3 +386,81 @@ console.log(book15);
 console.log(book15.write());
 console.log(book15.isSuperGood());
 
+
+// -
+class Book extends Books{
+	constructor(name, author, price){
+		super(name, author);
+		this.price = price;
+	}
+	run(){
+		return `${this.name} cost ${this.price}`;
+	}
+}
+
+//object / instance 
+const tom = new Book("tommy", "tom", 45);
+console.log(tom);
+console.log(tom.run());
+
+
+// Getters and setters // static methods and properties
+class Person007{
+	constructor(firstName, lastName, age){
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
+	}
+
+	// static method
+	static classInfo(){
+		return `this is person class`;
+	}
+
+	// static property
+	static desc = "static property";
+
+	// fullName(){
+	// 	return `${this.firstName} ${this.lastName} ${this.age}`;
+	// }
+	get fullName(){
+		return `${this.firstName} ${this.lastName} ${this.age}`;
+	}
+	setName(firstName, lastName, age){
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
+	}
+	// setName(fullName){
+	// 	const [firstName, lastName, age] = fullName.split(" ");
+	// 	this.firstName = firstName;
+	// 	this.lastName = lastName;
+	// 	this.age = age;
+	// }
+}
+
+const person00 = new Person007("patbi", "test", 4);
+console.log(person00);
+console.log(person00.firstName);
+// console.log(person00.fullName());
+
+// retrun with get
+console.log(person00.fullName);
+
+// person00.firstName = "firstname1";
+// person00.lastName = "lastname1";
+// console.log(person00.firstName);
+
+//person00.fullName = "name1 name2";
+// console.log(person00.fullName);
+// console.log(person00);
+
+person00.setName("set1", "set2", 3);
+console.log(person00.fullName);
+console.log(person00.firstName);
+
+
+const info = Person007.classInfo();
+console.log(info);
+console.log(Person007.desc);
+
