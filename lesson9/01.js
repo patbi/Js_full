@@ -9,5 +9,6 @@
 // what is global execution context ?
 // what is local execution context ?
 // closures
+//
 
 var firstName = "Thenavigo";
